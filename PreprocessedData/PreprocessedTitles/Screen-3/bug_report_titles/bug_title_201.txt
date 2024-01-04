@@ -1,0 +1,1 @@
+snackbar disappear during auto upload

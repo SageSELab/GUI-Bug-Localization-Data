@@ -1,0 +1,1 @@
+back record sound cause endless load crash

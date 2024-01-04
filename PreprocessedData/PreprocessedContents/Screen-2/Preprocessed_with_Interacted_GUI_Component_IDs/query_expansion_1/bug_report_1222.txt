@@ -1,0 +1,1 @@
+step reproduce the behaviour create weekly schedule export sunday expect behaviour the schedule export list weekly sunday actual behaviour the schedule export list weekly thursday report through user voice ticket menu save

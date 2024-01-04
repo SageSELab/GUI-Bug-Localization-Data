@@ -1,0 +1,1 @@
+can not add location when device location mode device only

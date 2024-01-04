@@ -1,0 +1,1 @@
+step reproduce open app tap button write abcde leave blank line tap add button crash menu add button menu add button menu add button

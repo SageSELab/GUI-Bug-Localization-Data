@@ -1,0 +1,1 @@
+keep scroll position when add file context reload current directory

@@ -1,0 +1,1 @@
+stop gnss should clear filter text

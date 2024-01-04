@@ -1,0 +1,1 @@
+tag text removal bug use checkbox

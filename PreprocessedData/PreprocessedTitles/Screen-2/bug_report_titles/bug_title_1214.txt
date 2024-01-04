@@ -1,0 +1,1 @@
+confirmation field react show password option when set password pin the first time

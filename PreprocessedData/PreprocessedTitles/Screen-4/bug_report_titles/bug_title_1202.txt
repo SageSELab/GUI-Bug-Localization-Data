@@ -1,0 +1,1 @@
+filter image toast save current display even when image save
