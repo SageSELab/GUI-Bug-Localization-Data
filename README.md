@@ -28,4 +28,4 @@ Here are the other directories:
 
 ```Augmentation-Info```: Necessary GUI information and potential filenames after augmentation
 
-```Preprocessed-Data```: All the processed queries and source code
+```Preprocessed-Data```: All the preprocessed queries and source code
