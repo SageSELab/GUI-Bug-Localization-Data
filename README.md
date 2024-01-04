@@ -16,11 +16,16 @@ gdown "https://drive.google.com/uc?export=download&id=1s9dpzEXdT_zEVPanhsa5rf-et
 
 Here are the other directories:
 
-```BugLocalizationGroundTruth```: This directory contains the ground truth for buggy locations for all 80 bug reports.
+```BugLocalizationGroundTruth```: This directory contains the ground truth for buggy locations for all 80 bug reports
+
 ```BugReports```: Bug Reports
+
 ```BugReportsTitles```: Bug Report Titles
+
 ```BugReportsContents```: Bug Reports without Titles
+
 ```TraceReplayer-Data```: GUI metadata from bug reproduction scenarios
 
 ```Augmentation-Info```: Necessary GUI information and potential filenames after augmentation
+
 ```Preprocessed-Data```: All the processed queries and source code
