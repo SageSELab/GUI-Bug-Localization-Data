@@ -1,3 +1,0 @@
-include ':urlImageViewHelper'
-include ':library'
-include ':iNaturalist'
