@@ -37,7 +37,7 @@ This directory contains 80 json files with ```<bug-id>.json``` file format. Each
 
     - id: Bug Id
     - bug_location: 
-        - commit_ids: the commit id when a bug occurs
+        - commit_ids: the commit id where a bug occurs
         - file_name: the file where a bug exists
 
 #### BugReports
@@ -56,7 +56,7 @@ This directory contains 80 folders with ```TR<bug-id>``` file format each having
     - .xml files: GUI hierarchy information for the screens that were traversed in the app
     - screenshots: app screenshots, screenshots with marked exercised GUI components and GUI component screenshots.
 
-### Augmentation-Info
+#### Augmentation-Info
 Here, the subdirectory is designed as follows:
 
 ```bash
