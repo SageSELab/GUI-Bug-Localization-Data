@@ -1,6 +1,6 @@
 ## GUI Bug Localization Data
 
-1. Download source code repositories using the following commands:
+1. Download source code repositories (~4.29GB) using the following commands:
 
 ```
 pip install gdown
@@ -8,7 +8,7 @@ gdown "https://drive.google.com/uc?export=download&id=1zluoAWnPLPx1nCK7WSb0EQ5ct
 
 ```
 2. Unzip the source code repositories file
-3. Download augmented source code repositories using the following commands:
+3. Download augmented source code repositories (~1.45GB) using the following command:
 ```
 gdown "https://drive.google.com/uc?export=download&id=1s9dpzEXdT_zEVPanhsa5rf-etEGm18xL"
 ```
