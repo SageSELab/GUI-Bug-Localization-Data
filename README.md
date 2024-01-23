@@ -34,6 +34,7 @@ gdown "https://drive.google.com/uc?export=download&id=1s9dpzEXdT_zEVPanhsa5rf-et
 We also provide the detailed contents for each directory below:
 #### BugLocalizationGroundTruth
 This directory contains 80 json files with ```<bug-id>.json``` file format. Here, the <bug-id> is from AndroR2[1][2] dataset. Each file contains the following information:
+
     - id: Bug Id
     - bug_location: 
         - commit_ids: the commit id when a bug occurs
@@ -50,6 +51,7 @@ This directory contains 80 txt files containing only bug report contents, exclud
 
 #### TraceReplayer-Data
 This directory contains 80 folders with ```TR<bug-id>``` file format each having the following information:
+
     - Execution-1.json: execution information having activities, actions, GUI component information.
     - .xml files: GUI hierarchy information for the screens that were traversed in the app
     - screenshots: app screenshots, screenshots with marked exercised GUI components and GUI component screenshots.
