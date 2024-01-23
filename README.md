@@ -31,9 +31,9 @@ gdown "https://drive.google.com/uc?export=download&id=1s9dpzEXdT_zEVPanhsa5rf-et
 |   |   ├── PreprocessedCode -> preprocessed source code
 ```
 
-We also provide the detailed contents for each directory below:
+All the bug reports that we used in our experiments are taken from the AndroR2 [1][2] dataset. The bug ids used in the filenames are the same bug ids from the AndroR2 dataset. We provide the detailed contents for each directory below.
 #### BugLocalizationGroundTruth
-This directory contains 80 json files with ```<bug-id>.json``` file format. Here, the <bug-id> is from AndroR2[1][2] dataset. Each file contains the following information:
+This directory contains 80 json files with ```<bug-id>.json``` file format. Each file contains the following information:
 
     - id: Bug Id
     - bug_location: 
@@ -41,13 +41,13 @@ This directory contains 80 json files with ```<bug-id>.json``` file format. Here
         - file_name: the file where a bug exists
 
 #### BugReports
-This directory contains 80 txt files containing bug reports containing titles and contents in ```bug_report_<bug-id>.txt``` file format. This <bug-id> is also taken from the AndroR2 dataset.
+This directory contains 80 txt files containing bug reports containing titles and contents in ```bug_report_<bug-id>.txt``` file format. 
 
 #### BugReportsTitles
-This directory contains 80 txt files containing only bug report titles in ```bug_title_<bug-id>.txt``` file format. This <bug-id> is also taken from the AndroR2 dataset.
+This directory contains 80 txt files containing only bug report titles in ```bug_title_<bug-id>.txt``` file format. 
 
 #### BugReportsContents
-This directory contains 80 txt files containing only bug report contents, excluding titles in ```bug_report_<bug-id>.txt``` file format. This <bug-id> is also taken from the AndroR2 dataset.
+This directory contains 80 txt files containing only bug report contents, excluding titles in ```bug_report_<bug-id>.txt``` file format. 
 
 #### TraceReplayer-Data
 This directory contains 80 folders with ```TR<bug-id>``` file format each having the following information:
@@ -61,7 +61,7 @@ Here, the subdirectory is designed as follows:
 
 ```bash
 ├── Screen (2/3/4 screens)
-│   ├──  Corpus (all files or files if filtered based on GUI types): Files_In_Corpus.csv file contains bug report id and necessary file paths and Queries.csv file contains bug report id, activities, fragments, exercised GUI components and all GUI components on the selected screens
+│   ├──  Corpus (all files or files if filtered based on GUI types): Files_In_Corpus.csv file contains bug report id and necessary file paths and Queries.csv file contains bug report ids, activities, fragments, exercised GUI components and all GUI components on the selected screens
 |   |   ├── Boosting (files if boosted based on GUI types): This directory contains files that are boosted in Match_Query_File_List.csv and the remaining files are in Not_Match_Query_File_List.csv
 ```
 
@@ -73,6 +73,7 @@ _**GUI Types acronyms used in the paper and the same names in this repository:**
 - GS+SC = GUI_State_and_All_GUI_Component_IDs
 
 ### References
-[1] Tyler Wendland, Jingyang Sun, Junayed Mahmud, SMH Mansur, Steven Huang, Kevin Moran, Julia Rubin, and Mattia Fazzini. 2021. Andror2: A Dataset of Manually-Reproduced Bug Reports for Android apps. In MSR’21. 600–604.
-[2] Jack Johnson, Junayed Mahmud, Tyler Wendland, Kevin Moran, Julia Rubin, and Mattia Fazzini. 2022. An Empirical Investigation into the Reproduction of Bug Reports for Android Apps. SANER’22 (2022).
+1. Tyler Wendland, Jingyang Sun, Junayed Mahmud, SMH Mansur, Steven Huang, Kevin Moran, Julia Rubin, and Mattia Fazzini. 2021. Andror2: A Dataset of Manually-Reproduced Bug Reports for Android apps. In MSR’21. 600–604.
+
+2. Jack Johnson, Junayed Mahmud, Tyler Wendland, Kevin Moran, Julia Rubin, and Mattia Fazzini. 2022. An Empirical Investigation into the Reproduction of Bug Reports for Android Apps. SANER’22 (2022).
 
